@@ -1,7 +1,7 @@
-EE_LIB  = libds4ps2.a
-EE_OBJS = libds4ps2.o
-EE_LIBS = -lc
-EE_CFLAGS=-Wall
+EE_LIB    = libds4ps2.a
+EE_OBJS   = libds4ps2.o
+EE_LIBS   = -lc
+EE_CFLAGS = -Wall
 
 all: $(EE_LIB)
 
