@@ -1,5 +1,5 @@
 IOP_BIN  = ds4ps2.irx
-IOP_OBJS = ds4ps2.o
+IOP_OBJS = ds4ps2.o exports.o imports.o
 
 IOP_CFLAGS = -Wall
 
